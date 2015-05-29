@@ -94,7 +94,7 @@ var commands = {
                             light.group.name,
                             light.location.name,
                             light.connected ? "Yes".green : "No".red,
-                            light.power ? "Yes".green : "No".red
+                            light.power == "on" ? "Yes".green : "No".red
                         ]);
                     });
 
