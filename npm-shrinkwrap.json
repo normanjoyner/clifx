@@ -1,6 +1,6 @@
 {
   "name": "clifx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "cli-table": {
       "version": "0.3.1",
