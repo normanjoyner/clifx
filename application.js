@@ -145,7 +145,7 @@ var commands = {
                         throw err;
 
                     if(_.isArray(response))
-                        console.log(["Successully turned on ", response.length, "lights!"].join(" "));
+                        console.log(["Successully turned on", response.length, "lights!"].join(" "));
                     else
                         console.log("Successfully turned on 1 light!");
                 });
