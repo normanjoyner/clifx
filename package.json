@@ -1,0 +1,38 @@
+{
+  "name": "clifx",
+  "version": "0.1.0",
+  "description": "Command line interface for interacting with LIFX bulbs using LIFX Cloud",
+  "main": "application.js",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "cli-table": "^0.3.1",
+    "lodash": "^3.9.3",
+    "nomnom": "^1.8.1",
+    "request": "^2.56.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanjoyner/clifx.git"
+  },
+  "keywords": [
+    "lifx",
+    "lifx",
+    "cloud",
+    "cloud",
+    "bulbs",
+    "cli"
+  ],
+  "author": "Norman Joyner",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/clifx/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/clifx",
+  "bin": {
+    "clifx": "./application.js"
+  }
+}
