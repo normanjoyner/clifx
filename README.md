@@ -14,7 +14,7 @@ Norman Joyner - norman.joyner@gmail.com
 `npm install clifx -g`
 
 ###Configuration
-`clifx configure --api-key LIFX_CLOUD_TOKEN`
+`clifx configure --token LIFX_CLOUD_TOKEN`
 
 ###Listing Bulbs
 List all bulbs:
